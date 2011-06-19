@@ -3,3 +3,8 @@ C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\bin\RightNavSample.pd
 C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\obj\Debug\RightNavSample.dll
 C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\obj\Debug\RightNavSample.pdb
+C:\Users\demason\GitProjects\HtmlJavascriptDockInVS2010\HtmlJavascriptDock\bin\RightNavSample.dll
+C:\Users\demason\GitProjects\HtmlJavascriptDockInVS2010\HtmlJavascriptDock\bin\RightNavSample.pdb
+C:\Users\demason\GitProjects\HtmlJavascriptDockInVS2010\HtmlJavascriptDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\demason\GitProjects\HtmlJavascriptDockInVS2010\HtmlJavascriptDock\obj\Debug\RightNavSample.dll
+C:\Users\demason\GitProjects\HtmlJavascriptDockInVS2010\HtmlJavascriptDock\obj\Debug\RightNavSample.pdb
