@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3FF1B6DF-0D9A-4C3F-AA8D-8B779268D275}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RightNavSample</RootNamespace>
+    <AssemblyName>RightNavSample</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\Icons\add.png" />
+    <Content Include="Images\Icons\arrow-down.png" />
+    <Content Include="Images\Icons\arrow-left.png" />
+    <Content Include="Images\Icons\arrow-right.png" />
+    <Content Include="Images\Icons\arrow-up.png" />
+    <Content Include="Images\Icons\art-knife.png" />
+    <Content Include="Images\Icons\beer.png" />
+    <Content Include="Images\Icons\bullhorn.png" />
+    <Content Include="Images\Icons\chat.png" />
+    <Content Include="Images\Icons\checkmark.png" />
+    <Content Include="Images\Icons\coffee.png" />
+    <Content Include="Images\Icons\colors.png" />
+    <Content Include="Images\Icons\database.png" />
+    <Content Include="Images\Icons\delete.png" />
+    <Content Include="Images\Icons\document.png" />
+    <Content Include="Images\Icons\earth.png" />
+    <Content Include="Images\Icons\error.png" />
+    <Content Include="Images\Icons\fedora.png" />
+    <Content Include="Images\Icons\flag-blue.png" />
+    <Content Include="Images\Icons\flag-green.png" />
+    <Content Include="Images\Icons\flag-red.png" />
+    <Content Include="Images\Icons\flag-yellow.png" />
+    <Content Include="Images\Icons\flask.png" />
+    <Content Include="Images\Icons\gear.png" />
+    <Content Include="Images\Icons\globe.png" />
+    <Content Include="Images\Icons\headphones.png" />
+    <Content Include="Images\Icons\iphone.png" />
+    <Content Include="Images\Icons\latte.png" />
+    <Content Include="Images\Icons\microscope.png" />
+    <Content Include="Images\Icons\movie.png" />
+    <Content Include="Images\Icons\pencil.png" />
+    <Content Include="Images\Icons\pipette.png" />
+    <Content Include="Images\Icons\record.png" />
+    <Content Include="Images\Icons\remove.png" />
+    <Content Include="Images\Icons\stop.png" />
+    <Content Include="Images\Icons\thumbtack-blue.png" />
+    <Content Include="Images\Icons\thumbtack-green.png" />
+    <Content Include="Images\Icons\thumbtack-red.png" />
+    <Content Include="Images\Icons\thumbtack-yellow.png" />
+    <Content Include="Images\Icons\warning.png" />
+    <Content Include="Scripts\default.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.5.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.13.custom.min.js" />
+    <Content Include="Scripts\prototype.js" />
+    <Content Include="Styles\base.css" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_flat_30_cccccc_40x100.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_glass_20_555555_1x400.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_glass_40_0078a3_1x400.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_glass_custom_1x2000.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_gloss-wave_25_333333_500x100.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_highlight-soft_80_eeeeee_1x2000.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_inset-soft_25_000000_1x100.png" />
+    <Content Include="Styles\ui-darkness\images\ui-bg_inset-soft_30_f58400_1x100.png" />
+    <Content Include="Styles\ui-darkness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Styles\ui-darkness\images\ui-icons_4b8e0b_256x240.png" />
+    <Content Include="Styles\ui-darkness\images\ui-icons_a83300_256x240.png" />
+    <Content Include="Styles\ui-darkness\images\ui-icons_cccccc_256x240.png" />
+    <Content Include="Styles\ui-darkness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Styles\ui-darkness\jquery-ui-1.8.13.custom.css" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Styles\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Styles\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Styles\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Styles\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Styles\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Styles\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Styles\ui-lightness\jquery-ui-1.8.13.custom.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1678</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

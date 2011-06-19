@@ -1,0 +1,5 @@
+C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\bin\RightNavSample.dll
+C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\bin\RightNavSample.pdb
+C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\obj\Debug\RightNavSample.dll
+C:\Users\demason\Desktop\RightNavSample\HtmlJavascriptDock\obj\Debug\RightNavSample.pdb

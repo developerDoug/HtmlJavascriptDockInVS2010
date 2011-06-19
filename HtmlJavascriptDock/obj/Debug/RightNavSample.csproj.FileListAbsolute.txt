@@ -1,0 +1,5 @@
+C:\Users\demason\Desktop\RightNavSample\RightNavSample\bin\RightNavSample.dll
+C:\Users\demason\Desktop\RightNavSample\RightNavSample\bin\RightNavSample.pdb
+C:\Users\demason\Desktop\RightNavSample\RightNavSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\demason\Desktop\RightNavSample\RightNavSample\obj\Debug\RightNavSample.dll
+C:\Users\demason\Desktop\RightNavSample\RightNavSample\obj\Debug\RightNavSample.pdb
